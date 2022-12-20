@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Antonia Sánchez">
+    <meta name="description" content="Portafolio de desarrollo web de Araceli Sánchez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Araceli Sanz | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/energy.png">
+    <!-- Link: https://www.flaticon.es/icono-gratis/encendiendo_2731653?related_id=2731653 -->
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/programmer.png" width="50" alt="Logo de la página web">
+            <!-- Link: https://www.flaticon.com/free-icon/developer_1508880?term=developer%20girls&page=1&position=1&page=1&position=1&related_id=1508880&origin=search -->
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Araceli.jpg" alt="Foto de Araceli Sanz">
+        <h1>Hola, soy Araceli Sanz</h1>
+        <!-- Animación con JavaScript -->
+        <h2 class="text-warning mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo" style="color: #FFE15D;">Conoce a Araceli Sanz</h2>
+        <p class="seccion-texto" style="color: white;">Soy estudiante de Ingeniería en Software 
+          y Sistemas Computacionales. Actualmente tomo cursos de programación web en Tecnolochicas y como DevOps en LabsXD 
+          con tecnología de Salesforce. <br> Soy una persona apasionada por el voluntariado y lideró proyectos que contribuyen
+           a la reducción de la brecha de género en áreas STEM.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Construyo sitios web responsivos y modernos con diferentes tecnologías.
+            </p>
+            <br>
+            <div class="badges-contenedor">
+              <span class="badge" style="background-color: #F49D1A;">HTML</span>
+              <span class="badge" style="background-color: #F49D1A;">CSS</span>
+              <span class="badge" style="background-color: #F49D1A;">JavaScript</span>
+              <span class="badge" style="background-color: #F49D1A;">React</span>
+            </div>
+          </div>
+          <!-- STEMinistA@GTO -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil-square"></i>
+            <p class="experiencia-titulo">STEMinistA@GTO</p>
+            <p>
+              Junto con otras mujeres de áreas STEM brindamos experiencias inmersivas de "La mujer en las STEM"
+              a niñas de 13 a 17 años en situación vulnerable.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge" style="background-color: #F49D1A;">STEM</span>
+              <span class="badge" style="background-color: #F49D1A;">Brecha de género</span>
+              <span class="badge" style="background-color: #F49D1A;">Niñas</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>
+              Soy estudiante de tercer semestre en Ingeniería en Software y Sistemas Computacionales
+              en la Universidad de la Salle Bajío.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge" style="background-color: #F49D1A;">Back-End</span>
+              <span class="badge" style="background-color: #F49D1A;">Front-End</span>
+              <span class="badge" style="background-color: #F49D1A;">IOS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro" style="color: #B01E68;">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Clonación Google">
+              <div class="overlay">
+                <p>Clonación Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/aaraceliSanz/Clon_Google" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://aaracelisanz.github.io/Clon_Google/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Girls Just Want To Have STEM">
+              <div class="overlay">
+                <p>Girls Just Want To Have STEM</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/aaraceliSanz/TallerNuevosParadigmas/tree/master/STEMinistA_GTO" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://aaracelisanz.github.io/TallerNuevosParadigmas/STEMinistA_GTO/Home.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Objetos Windows y Navegator">
+              <div class="overlay">
+                <p>Objetos Windows y Navegator</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/aaraceliSanz/TallerDesarrolloVol3/blob/master/practica24.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://aaracelisanz.github.io/TallerDesarrolloVol3/practica24.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/aaraceliSanz" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info" style="background-color: #F49D1A; border: #F49D1A;">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Más sobre mi -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro" style="color: #B01E68;">Más sobre mi</h2>
+      <div class="card">
+        <div class="card-header" style="background-color: #FFE15D; color:#B01E68;">
+          ¡Echa un vistazo!
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://trailblazer.me/id/asnchezpadilla1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Revisa mi perfil en Trailhead
+            </li>
+          </a>
+          <a href="https://aaracelisanz.github.io/TallerNuevosParadigmas/STEMinistA_GTO/Home.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Únete a la iniciativa STEMinistA
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info" style="background-color: #F49D1A; border: #F49D1A;">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo" style="color: #B01E68;">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de las personas con las 
+        que he colaborado...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.jpg" alt="Foto de Nancy Salazar">
+              <p class="testimonio-texto">
+                Araceli demostró ser una buena estudiante mientras estuvo en el 
+                bootcamp de Tecnolochicas PRO. Mostró bastante interés en 
+                desarrollar sus habilidades como programadora web y realizó 
+                proyectos muy interesantes.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">Ingeniera en TI</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.png" alt="Foto de Marco Hernández">
+              <p class="testimonio-texto">
+                Araceli fue una excelente alumna, valoro las ganas y 
+                la buena vibra que le pone a todo lo que haces. 
+                Un gusta haber compartido con ella este aprendizaje.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Marco Hernández</p>
+                <p class="cargo">Director general de GHA | Profesor en la Universidad de La Salle Bajío</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/programmer.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">
+        Aprendo y creo todos los días.
+        <br>
+        Creemos un proyecto juntos.
+      </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/aaraceliSanz" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/antonia-araceli-sánchez" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/aaraceli_sanz/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Araceli Sánchez (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
